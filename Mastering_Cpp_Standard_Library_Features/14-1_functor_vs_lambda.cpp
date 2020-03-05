@@ -1,3 +1,5 @@
+// g++ 14-1_functor_vs_lambda.cpp -Wall -Wextra -std=gnu++2a
+
 #include <iostream>
 #include <cstdlib>
 #include <algorithm>
