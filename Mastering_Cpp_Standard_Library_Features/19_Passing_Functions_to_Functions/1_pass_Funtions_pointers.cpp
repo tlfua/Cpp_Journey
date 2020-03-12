@@ -1,5 +1,16 @@
 // g++ 1_pass_Funtions_pointers.cpp -Wall -Wextra -std=gnu++2a
 
+/*
+Pros:
+1. Simplicity
+2. Compilers can aggressively optimize function pointers
+
+Cons:
+1. Very limited use cases
+2. Stateful lambdas cannot be passed
+3. Generic function objs cannot be passed
+*/
+
 #include <iostream>
 
 int add(int a, int b) { return a + b; }
