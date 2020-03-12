@@ -1,3 +1,5 @@
+// g++ lambda_to_func_pointer.cpp -Wall -Wextra -std=gnu++2a
+
 #include <iostream>
 
 int main()
